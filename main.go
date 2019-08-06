@@ -27,4 +27,3 @@ func main() {
 func indexEndpoint(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "ok", "code": 200})
 }
-
