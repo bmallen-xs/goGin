@@ -25,5 +25,5 @@ func main() {
 }
 
 func indexEndpoint(c *gin.Context) {
-	c.JSON(http.StatusOK, gin.H{"status": "ok", "code": 200})
+	c.JSON(http.StatusOK, gin.H{"status": "good", "code": 200})
 }
